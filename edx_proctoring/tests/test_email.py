@@ -5,9 +5,9 @@ All tests for proctored exam emails.
 
 from copy import deepcopy
 from itertools import product
+from unittest.mock import MagicMock, patch
 
 import ddt
-from mock import MagicMock, patch
 from opaque_keys import InvalidKeyError
 
 from django.conf import settings

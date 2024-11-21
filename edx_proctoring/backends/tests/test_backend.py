@@ -22,7 +22,7 @@ from edx_proctoring.exceptions import (
 # pragma pylint: disable=useless-super-delegation
 
 
-class TestBackendProvider(ProctoringBackendProvider):
+class MockBackendProvider(ProctoringBackendProvider):
     """
     Implementation of the ProctoringBackendProvider that does nothing
     """

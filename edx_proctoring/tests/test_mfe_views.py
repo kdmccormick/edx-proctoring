@@ -3,10 +3,10 @@ Tests for the MFE proctored exam views.
 """
 import json
 from itertools import product
+from unittest.mock import patch
 from urllib.parse import urlencode
 
 import ddt
-from mock import patch
 from opaque_keys.edx.locator import BlockUsageLocator
 
 from django.conf import settings

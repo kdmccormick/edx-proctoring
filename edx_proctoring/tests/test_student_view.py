@@ -8,11 +8,11 @@ All tests for the api.py
 import itertools
 import json
 from datetime import datetime, timedelta
+from unittest.mock import MagicMock, patch
 
 import ddt
 import pytz
 from freezegun import freeze_time
-from mock import MagicMock, patch
 
 from django.test.utils import override_settings
 from django.urls import reverse
